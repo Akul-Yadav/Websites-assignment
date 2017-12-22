@@ -1,0 +1,169 @@
+body {
+    background: #f8f8f8;
+    font-size: 18px;
+}
+
+
+/* style for navbar*/
+
+.navbar {
+    background-color: #e8e8e8;
+    border-bottom: 1px solid #c7c1c1;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-header .icon-bar-bg {
+    background-color: gray;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar-collapse .nav-item a {
+    color: #444444;
+    border-bottom: 4px solid transparent;
+    font-size: 1.8rem;
+}
+
+.navbar-collapse .nav-item a:hover {
+    border-bottom: 4px solid #43438c;
+}
+
+
+/*ends here*/
+
+
+/*CSS for the slider*/
+
+.slider-img {
+    width: 100%;
+    padding-left: 0%;
+}
+
+.slider-text-wrapper {
+    padding-top: 0%;
+    padding-bottom: 6%;
+}
+
+.slider-text-wrapper h2 {
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+.slider-text-wrapper p {
+    color: #545454;
+    font-size: 1.5rem;
+}
+
+.slider-arrow {
+    color: #000;
+}
+
+.carousel-indicators li {
+    border: 2px solid #696969;
+}
+
+.carousel .carousel-control {
+    background-image: none;
+}
+
+
+/*ends here*/
+
+
+/*CSS for ABOUT US and HOW IT WORKS CARDS*/
+
+#about-us article:first-letter,
+#how-it-works article:first-letter {
+    font-size: 200%;
+    color: #000;
+}
+
+#about-us,
+#how-it-works {
+    background: white;
+    border: 1px solid #c7c1c1;
+    margin: 2%;
+    padding: 2%;
+}
+
+#about-us h1,
+#how-it-works h1 {
+    margin: 0;
+    padding-bottom: 2%;
+    font-size: 3rem;
+}
+
+#about-us article,
+#how-it-works article {
+    font-size: 1.5rem;
+}
+
+
+/*ends here*/
+
+
+/*CSS for FOOTER*/
+
+footer {
+    background-color: #000000;
+    padding: 2%;
+}
+
+#owner-info {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+footer>h3 {
+    color: aliceblue;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+#social-info {
+    margin-top: 2%;
+}
+
+#social-info a {
+    margin-left: 4%;
+}
+
+#social-info a:first-child {
+    margin-left: 0;
+}
+
+.fa {
+    padding: 2%;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-linkedin {
+    background: #0077b5;
+}
+
+
+/*ends here*/

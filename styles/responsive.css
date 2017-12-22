@@ -1,0 +1,22 @@
+/*media queries for responsive layout*/
+
+@media all and (min-width: 992px) {
+    #social-info a {
+        float: right;
+    }
+    #social-info a:first-child {
+        margin-left: 4%;
+    }
+    .slider-text-wrapper {
+        padding: 12% 5% 0 5%;
+    }
+    .fa {
+        padding: 4%;
+    }
+    #social-info {
+        margin-top: 0%;
+    }
+    .navbar-nav {
+        float: right;
+    }
+}
