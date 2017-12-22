@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Websites.co.in</title>
+	<!--path to bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="external/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="external/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="external/bootstrap/js/bootstrap.js"></script>
+	<!--load main css file-->
+	<link rel="stylesheet" type="text/css" href="styles/main.css" />
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+</head>
+
+<body>
+	<div class="container-fixed">
+		<!-- Collapse Navbar -->
+		<nav class="navbar navbar-light" id="navbg">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-hamburger" aria-expanded="false">
+					<span class="icon-bar icon-bar-bg"></span>
+					<span class="icon-bar icon-bar-bg"></span>
+					<span class="icon-bar icon-bar-bg"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img id="navbar-img" src="assets/images/logo.png" alt="website logo">
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="nav-hamburger">
+				<ul class="navbar-nav nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Websites.html#about-us">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Websites.html#how-it-works">How it works</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Websites.html#contact-us">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<!--ends here-->
+
+		<!-- Carousel with text -->
+		<div class="container-fixed">
+			<div id="slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#slider" data-slide-to="0" class="active"></li>
+					<li data-target="#slider" data-slide-to="1"></li>
+					<li data-target="#slider" data-slide-to="2"></li>
+					<li data-target="#slider" data-slide-to="3"></li>
+					<li data-target="#slider" data-slide-to="4"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="col-md-6">
+							<img class="slider-img" src="assets/images/taj-mahal.jpg" alt="First slide">
+						</div>
+						<div class="col-md-6 slider-text-wrapper">
+							<h2 class="slider-heading">
+								<a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">TAJ MAHAL</a>
+							</h2>
+							<p class="slider-para">Located in Agra, India.</p>
+						</div>
+					</div>
+					<div class="item">
+
+						<div class="col-md-6">
+							<img class="slider-img" src="assets/images/christ-statue.jpg" alt="Second slide">
+						</div>
+						<div class="col-md-6 slider-text-wrapper">
+							<h2 class="slider-heading">
+								<a href="https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)" target="_blank">CHRIST THE REDEEMER STATUE</a>
+							</h2>
+							<p class="slider-para">Located in Rio de Janerio, Brazil.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="col-md-6">
+							<img class="slider-img" src="assets/images/colosseum.jpg" alt="Third slide">
+						</div>
+						<div class="col-md-6 slider-text-wrapper">
+							<h2 class="slider-heading">
+								<a href="https://en.wikipedia.org/wiki/Colosseum" target="_blank">COLOSSEUM</a>
+							</h2>
+							<p class="slider-para">Located in Rome, Italy.</p>
+						</div>
+					</div>
+					<div class="item">
+
+						<div class="col-md-6 ">
+							<img class="slider-img" src="assets/images/chichen.jpg" alt="Fourth slide">
+						</div>
+						<div class="col-md-6 slider-text-wrapper">
+							<h2 class="slider-heading">
+								<a href="https://en.wikipedia.org/wiki/Chichen_Itza" target="_blank">CHICHEN ITZA</a>
+							</h2>
+							<p class="slider-para">Located in Yucatan, Mexico.</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="col-md-6">
+							<img class="slider-img" src="assets/images/china-wall.jpg" alt="Fifth slide">
+						</div>
+						<div class="col-md-6 slider-text-wrapper">
+							<h2 class="slider-heading">
+								<a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank">GREAT WALL OF CHINA</a>
+							</h2>
+							<p>Located in Huairou, China.</p>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left slider-arrow" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#slider" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right slider-arrow" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<!-- ends here -->
+
+		<!-- About US using jumbotron -->
+		<div id="about-us" class="jumbotron">
+			<h1>About Us</h1>
+			<article>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+				text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+				It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+				with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				<br> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+				from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+				looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+				the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+				of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+				on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+				comes from a line in section 1.10.32.
+				<br> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
+				1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
+				by English versions from the 1914 translation by H. Rackham.
+				<br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+				layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+				'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
+				now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+				their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+				and the like).
+			</article>
+		</div>
+		<!-- ends here -->
+
+		<!-- How it works using Jumbotron -->
+		<div id="how-it-works" class="jumbotron">
+			<h1>How it works ?</h1>
+			<article>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+				text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+				It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+				with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				<br> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+				from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+				looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
+				the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+				of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
+				on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+				comes from a line in section 1.10.32.
+				<br> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
+				1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied
+				by English versions from the 1914 translation by H. Rackham.
+				<br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+				layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+				'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
+				now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+				their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+				and the like).
+				<br>
+			</article>
+		</div>
+		<!--footer of the page  -->
+
+		<footer id="contact-us">
+			<h3>Contact Us</h3>
+			<div class="row">
+				<div id="owner-info" class="col-md-6">
+					Akul Yadav
+					<br> Address: D-704, Vedanta,
+					<br> Wakad, Pune.
+					<br> (M) 8010274442
+				</div>
+				<div id="social-info" class="col-md-6">
+					<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+					<a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+				</div>
+			</div>
+		</footer>
+		<!-- ends here -->
+	</div>
+</body>
+
+</html>
