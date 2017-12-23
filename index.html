@@ -14,16 +14,18 @@
 </head>
 
 <body>
-	<div class="container-fixed">
+	<div class="container-fluid">
 		<!-- Collapse Navbar -->
-		<nav class="navbar navbar-light" id="navbg">
-
+		<nav class="navbar navbar-light navbar-fixed-top" id="navbg">
+			<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-hamburger" aria-expanded="false">
-					<span class="icon-bar icon-bar-bg"></span>
-					<span class="icon-bar icon-bar-bg"></span>
-					<span class="icon-bar icon-bar-bg"></span>
+				<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#nav-hamburger" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
 				</button>
+				
 				<a class="navbar-brand" href="#">
 					<img id="navbar-img" src="assets/images/logo.png" alt="website logo">
 				</a>
@@ -31,25 +33,24 @@
 			<div class="collapse navbar-collapse" id="nav-hamburger">
 				<ul class="navbar-nav nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Websites.html#about-us">About Us</a>
+						<a class="nav-link" href="index.html#about-us">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Websites.html#how-it-works">How it works</a>
+						<a class="nav-link" href="index.html#how-it-works">How it works</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Websites.html#contact-us">Contact Us</a>
+						<a class="nav-link" href="index.html#contact-us">Contact Us</a>
 					</li>
 				</ul>
 			</div>
-
+		</div>
 		</nav>
 		<!--ends here-->
 
 		<!-- Carousel with text -->
-		<div class="container-fixed">
 			<div id="slider" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -126,7 +127,6 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
 		<!-- ends here -->
 
 		<!-- About US using jumbotron -->
