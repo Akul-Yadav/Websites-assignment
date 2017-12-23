@@ -1,6 +1,6 @@
 body {
     background: #f8f8f8;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -13,8 +13,12 @@ body {
     margin-bottom: 0;
 }
 
-.navbar .navbar-header .icon-bar-bg {
-    background-color: gray;
+.navbar-toggle {
+    background-color: #ccb15f;
+}
+
+.navbar-toggle .icon-bar {
+    background: white;
 }
 
 .navbar-brand {
@@ -29,11 +33,11 @@ body {
 .navbar-collapse .nav-item a {
     color: #444444;
     border-bottom: 4px solid transparent;
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 
 .navbar-collapse .nav-item a:hover {
-    border-bottom: 4px solid #43438c;
+    border-bottom: 4px solid #ccb15f;
 }
 
 
@@ -41,7 +45,9 @@ body {
 
 
 /*CSS for the slider*/
-
+.carousel {
+    margin-top: 55px;
+}
 .slider-img {
     width: 100%;
     padding-left: 0%;
@@ -59,7 +65,7 @@ body {
 
 .slider-text-wrapper p {
     color: #545454;
-    font-size: 1.5rem;
+    font-size: 16px;
 }
 
 .slider-arrow {
@@ -73,7 +79,13 @@ body {
 .carousel .carousel-control {
     background-image: none;
 }
+.carousel .carousel-control .glyphicon-chevron-right {
+    margin-right: -45px;
+}
 
+.carousel .carousel-control .glyphicon-chevron-left {
+    margin-left: -45px;
+}
 
 /*ends here*/
 
@@ -103,7 +115,7 @@ body {
 
 #about-us article,
 #how-it-works article {
-    font-size: 1.5rem;
+    font-size: 16px;
 }
 
 
@@ -142,7 +154,7 @@ footer>h3 {
 
 .fa {
     padding: 2%;
-    font-size: 1.5rem;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     color: white;
